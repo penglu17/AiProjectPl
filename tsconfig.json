@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",           // 目标 JavaScript 版本
+    "module": "ESNext",           // 模块系统
+    "moduleResolution": "bundler", // 模块解析策略
+    "strict": true,               // 启用严格类型检查
+    "esModuleInterop": true,      // 允许 import CommonJS 模块
+    "skipLibCheck": true,         // 跳过库文件的类型检查（加速编译）
+    "outDir": "./dist",           // 编译输出目录
+    "rootDir": "./src",            // 源代码目录
+    "types": ["node"]             // 类型声明文件
+  },
+  "include": ["src/**/*"]         // 包含的文件
+}
